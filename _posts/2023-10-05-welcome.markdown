@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "hannett.dev"
+date:   2023-10-05 17:32:48 +0100
+categories: jekyll update
+---
+
+Gonna use this as a dumping ground for various dev projects I think. I might do a making of for the site as a whole for the next post maybe.
