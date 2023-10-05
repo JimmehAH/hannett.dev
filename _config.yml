@@ -36,6 +36,8 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll/mastodon_webfinger
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
