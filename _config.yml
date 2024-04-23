@@ -27,6 +27,22 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hannett.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  JimmehAH
 
+author:
+  name: "James Hannett"
+  location: "Oxford, UK"
+  bio: "DevOps Engineer with lots of experience in build pipelines, automation and sysadmin work."
+  avatar: "/images/avatar.jpeg"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/JimmehAH"
+    # - label: "Mastodon"
+    #   icon: "fab fa-mastodon"
+    #   url: "https://mastodon.social/@jimmeh"
+    # - label: "Bluesky"
+    #   icon: "fa-brands fa-bluesky"
+    #   url: "https://bsky.app/profile/hannett.dev"
+
 mastodon:
   username: Jimmeh
   instance: mastodon.social
