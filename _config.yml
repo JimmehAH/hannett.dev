@@ -49,6 +49,18 @@ mastodon:
 
 # Build settings
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "dark"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+
 plugins:
   - jekyll-feed
   - jekyll/mastodon_webfinger
