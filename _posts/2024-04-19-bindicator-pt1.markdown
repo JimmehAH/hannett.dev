@@ -11,15 +11,15 @@ excerpt: What is a bindicator, why do I want one and why do I have to make it my
 I would like to have a glanceable reminder of when to put the bins out and which bins need to go out. Currently I have 3 options to check the bin day in my area;
 
 1. Enter my address on the website that [Oxford City Council](https://www.oxford.gov.uk) provide and see what comes back. As you can see in the image below it's not the most readable layout and it's certainly not convenient or glanceable. Not sure why they bother to include the details of the next collection and also the collection after that.
-  ![Screenshot of a website showing bin collection dates. The text is small, there is no particular order to the data](/images/oxford_bin_collection.png)
+  ![Screenshot of a website showing bin collection dates. The text is small, there is no particular order to the data](/assets/images/oxford_bin_collection.png)
 2. Print out a PDF of all the collection dates for the year and print it out. This is also not very glanceable, although it would be slightly more convenient.
-  ![Cropped screenshot of a PDF that lists all the bin collection days in my area for the year. There's a lot of info packed in](/images/oxford_bin_zones.png)
+  ![Cropped screenshot of a PDF that lists all the bin collection days in my area for the year. There's a lot of info packed in](/assets/images/oxford_bin_zones.png)
 3. Get an email reminder from the Council. This is the option I currently use and it's certainly the best one from a convenience and glanceability perspective. As you can see in the screenshot only the pertinent information is given and as the email arrives on my phone it's very convenient. The only issue is that the email tends to arrive during the mid-afternoon and I'm usually working or doing something at that time. By the time I get home I've often forgotten about the email and then when I **do** remember it's 10pm and I have to go digging through the emails again to remind myself which bins go out.
-  ![Cropped screenshot of an email showing the next bin collection. It only shows the relevant information and is quite readable](/images/oxford_bin_email.png)
+  ![Cropped screenshot of an email showing the next bin collection. It only shows the relevant information and is quite readable](/assets/images/oxford_bin_email.png)
 
 Wouldn't it be better if I could just have some sort of small light that would come on to remind me? Nothing too garish, of course.
 
-![Photo of a clear glass skull shaped bottled stuffed full of multicoloured LEDs](/images/plasma_skull.jpeg)
+![Photo of a clear glass skull shaped bottled stuffed full of multicoloured LEDs](/assets/images/plasma_skull.jpeg)
 
 This is a Pi Pico powered Skull which I bought from [Pimoroni](https://shop.pimoroni.com/products/wireless-plasma-kit?variant=40362173399123) because it's a WiFI enabled glass skull crammed full of RGB LEDs.
 
@@ -35,7 +35,7 @@ Oxford used to have a mobile app that had an API that could be relatively easily
 
 There is at least 1 open source project devoted to providing a standard interface to the various disparate council bin collection data sources. It's called [UK Bin Collection Data (UKBCD)](https://github.com/robbrad/UKBinCollectionData) but sadly it does not support Oxford City Council yet.
 
-![Screenshot of a list of supported councils for the UK Bin Collection Data integration for Home Assistant. Oxford is not on the list.](/images/oxford_bin_homeassistant.png)
+![Screenshot of a list of supported councils for the UK Bin Collection Data integration for Home Assistant. Oxford is not on the list.](/assets/images/oxford_bin_homeassistant.png)
 
 We're going to have to do this ourselves.
 

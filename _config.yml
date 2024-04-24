@@ -31,7 +31,7 @@ author:
   name: "James Hannett"
   location: "Oxford, UK"
   bio: "DevOps Engineer with lots of experience in build pipelines, automation and sysadmin work."
-  avatar: "/images/avatar.jpeg"
+  avatar: "/assets/images/avatar.jpeg"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
