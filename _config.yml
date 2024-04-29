@@ -21,21 +21,22 @@
 title: James Hannett's projects
 email: james@hannett.dev
 description: >- # this means to ignore newlines until "baseurl:"
-  A basic dumping ground for my personal projects. Some web dev, some games,
-  some hardware.
+  My portfolio website. Some development logs for hardware and software too.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hannett.dev" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  JimmehAH
 
 author:
   name: "James Hannett"
-  location: "Oxford, UK"
-  bio: "DevOps Engineer with lots of experience in build pipelines, automation and sysadmin work."
+  bio: "DevOps Engineer with lots of experience in build pipelines, automation and sysadmin work. Based in Oxford, UK."
   avatar: "/assets/images/avatar.jpeg"
   links:
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-brands fa-github"
       url: "https://github.com/JimmehAH"
+    - label: "Contact"
+      icon: "fa-solid fa-envelope"
+      url: "/contact"
     # - label: "Mastodon"
     #   icon: "fab fa-mastodon"
     #   url: "https://mastodon.social/@jimmeh"
