@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Bindicator Part I"
+title:  "Bindicator Part 1"
 date:   2024-04-19 15:00:00 +0000
 categories: projects bindicator
 excerpt: What is a bindicator, why do I want one and why do I have to make it myself?

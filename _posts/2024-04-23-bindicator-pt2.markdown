@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Bindicator Part II"
+title:  "Bindicator Part 2"
 date:   2024-04-25 16:00:00 +0000
 categories: projects bindicator
 excerpt: The Bindicator Web Service
@@ -261,7 +261,7 @@ jameshannett@Jimmeh-MBP ~ %
 }
 ```
 
-All that is left now is to write the MicroPython code to let the skull connect to this web service and then light up which we will go through in part III.
+All that is left now is to write the MicroPython code to let the skull connect to this web service and then light up which we will go through in part 3.
 
 [^zapier]: Maybe not. I've looked closer and it seems that webhook actions are only included in paid plans.
 
