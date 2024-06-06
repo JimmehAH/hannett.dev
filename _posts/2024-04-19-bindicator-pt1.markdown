@@ -45,4 +45,4 @@ We're going to have to do this ourselves.
 
 We will use the email reminder option that the council provide and have it send emails to a service such as [Zapier](https://zapier.com) or [IFTTT](https://ifttt.com). From there we can forward the body of the email to a custom web service which will process it and store the relevant details (date and type of next collection). We will also write some custom code for the skull which will query this web service a couple of times a day to get the current latest collection date and time, along with updating the internal clock of the Pico. Between 6pm and 11pm on the day before the collection the skull will glow a relevant colour. We will secure access to the web service using some sort of [pre-shared key](https://en.wikipedia.org/wiki/Pre-shared_key).
 
-That's the idea, anyway. We'll see how I got on in part II.
+That's the idea, anyway. We'll see how I got on in part 2.
