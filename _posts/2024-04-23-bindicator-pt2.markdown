@@ -38,7 +38,9 @@ app.post("/incoming", async (c) => {
 });
 ```
 
-Next we need to set up our data source. As we discussed in the previous part we're using email for this and I happen to already have notifications sent to my Gmail account. We can reuse these emails by creating a new filter on there which will automatically label and forward emails and we'll use Zapier to process the email and trigger our webhook as it should be free for our needs[^zapier]. You can also use IFTTT (if you pay) or Google App Script[^gas] or a bunch of others.
+Next we need to set up our data source. As we discussed in the previous part we're using email for this and I happen to already have notifications sent to my Gmail account. We can reuse these emails by creating a new filter on there which will automatically label and forward emails ~~and we'll use Zapier to process the email and trigger our webhook as it should be free for our needs[^zapier]. You can also use IFTTT (if you pay) or Google App Script[^gas] or a bunch of others~~.
+
+Edit: please see [Part 2.75](/_posts/2024-05-09-bindicator-pt2.75.markdown) for how I ended up handling the email forwarding.
 
 ![Screenshot of a Zapier automation showing 2 steps. 1: New Inbound Email, 2: POST in Webhooks](/assets/images/oxford_bin_zapier.png)
 
